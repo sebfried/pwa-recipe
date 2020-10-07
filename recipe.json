@@ -1,0 +1,38 @@
+{
+    "staticBase": [
+        ["merge"],
+        {
+            "merge": ["https://github.com/JhonnyJason/pwa-root-template"]
+        }
+    ],
+    "output": [
+        ["submodule"],
+        ["merge"],
+        {
+            "merge": ["https://gitlab.com/lenny09918050/lenny-unlicense"]
+        }
+    ],
+    "sources": [
+        ["submodule"],
+        ["create", "merge", "use"],
+        {
+            "create": ["uisources"],
+            "merge": ["*"],
+            "use": ["*"]
+        }
+    ],
+    "testing": [
+        ["directory"],
+        ["merge"],
+        {
+            "merge": ["https://gitlab.com/lenny09918050/lenny-unlicense"]
+        }
+    ],
+    "toolset": [
+        ["submodule"],
+        ["use"],
+        {
+            "use": ["https://github.com/JhonnyJason/toolset"]
+        }
+    ]
+}
