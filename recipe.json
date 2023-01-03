@@ -32,7 +32,7 @@
         ["submodule"],
         ["use"],
         {
-            "use": ["https://github.com/JhonnyJason/toolset"]
+            "use": ["https://github.com/sebfried/toolset"]
         }
     ]
 }
